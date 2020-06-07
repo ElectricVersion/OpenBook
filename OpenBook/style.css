@@ -1,0 +1,307 @@
+html {
+	font-size:100%;
+	font-family:sans-serif;
+	height:100%;
+	overflow:auto;
+}
+body {
+	background-color:#E0E0E0;
+	font-size:0.75em;
+	margin:0px;
+	width:100%;
+	min-height:100%;
+	height:100%;
+	overflow:auto;
+	position:relative;
+}
+div#global-wrapper {
+	min-height:100%;
+	height:auto;
+	width:100%;
+	padding-bottom:8em;
+	margin-bottom:-8em;
+	box-sizing:border-box;
+}
+div#content {
+	background-color:#FAFAFA;
+	width:auto;
+	margin:0.5em 1em 1em 0.5em;
+	padding:1.5em;
+	box-sizing:border-box;
+	border-radius:3px;
+}
+div#sidebar {
+	background-color:#FAFAFA;
+	width:180px;
+	margin:1em 0.5em 1em 1em;
+	padding:1em 1em;
+	box-sizing:border-box;
+	border-radius:3px;
+}
+div#content-wrapper {
+	width:auto;
+	overflow:auto;
+}
+div#sidebar-wrapper {
+	width:auto;
+	float:left;
+	overflow:auto;
+}
+h1 {
+	padding:0.25rem 0.25rem 0.25rem 0.25rem;
+	margin:0.25em 0em;
+	border-bottom:2px solid #E0E0E0;
+	font-size:2em;
+}
+h2 {
+	font-size:1.8em;
+	margin:0.25em 0em;
+	padding:0.25rem 0rem;
+}
+h3 {
+	font-size:1.6em;
+	margin:0.25em 0em;
+	padding:0.25rem 0rem;
+}
+h4 {
+	font-size:1.4em;
+	margin:0.25em 0em;
+	padding:0.25rem 0rem;
+}
+h5 {
+	font-size:1.2em;
+	margin:0.25em 0em;
+	padding:0.25rem 0rem;
+}
+h6 {
+	font-size:1em;
+	margin:0.25em 0em;
+	padding:0.25rem 0rem;
+}			
+div#sidebar ul {
+	padding:0em;
+}
+div#sidebar h5 {
+	padding-left:0.5em;
+	font-size:1em;
+	margin-top:0.25em;
+}
+div#sidebar .sidebar-section {
+	margin:0.5em 0em;
+}
+a {
+	color:#0051B5;
+	text-decoration:none;
+}
+a:visited {
+	color:#6000AF;
+	text-decoration:none;
+}
+a:hover {
+	color:#0061D8;
+	text-decoration:underline;
+}
+a:visited:hover {
+	color:#7900E2;
+	text-decoration:underline;
+}
+a:link:active, a:visited:active {
+	color:#00890B;
+}
+div#topbar-wrapper {
+	width:100%;
+}
+div#topbar {
+	background-color:#FAFAFA;
+	width:auto;
+	box-sizing:border-box;
+	padding:1em;
+	overflow:auto;
+}
+input[type="search"], input[type="text"] {
+	margin:0.25em;
+	font-family:inherit;
+}
+input[type="submit"], input[type="button"] {
+	margin:0.25em;
+	font-family:inherit;
+}
+div#topbar-search-section input {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+div#logo-wrapper {
+	background-color:#FAFAFA;
+	width:180px;
+	height:180px;
+	margin:1em 0.5em 1em 1em;
+	padding:0em;
+	box-sizing:border-box;
+	border-radius:3px;
+}
+div#content-tabs {
+	width:auto;
+	margin:1em 1em 0.5em 0.5em;
+}
+div#content-tabs li {
+	background-color:#FAFAFA;
+	display:inline-block;
+	padding:1em;
+	box-sizing:border-box;
+	border-radius:3px;
+	margin:0em 0.25em;
+}
+div#content-tabs ul {
+	margin:0px;
+	padding:0px;
+}
+div#content-tabs li:first-of-type {
+	margin-left:0em;
+}
+div#content-tabs li:last-of-type {
+	margin-right:0em;
+}
+div#content-tabs li a {
+	color:black;
+	text-decoration:none;
+}
+div#content-tabs li.selected a {
+	font-weight:bold;
+}
+div#topbar-search-section {
+	float:left;
+}
+div#topbar-personal-section {
+	float:right;
+}
+div#topbar-personal-section li {
+	display:inline;
+	margin:0em 0.5em;
+}
+div#footer {
+	background-color:#FAFAFA;
+	width:100%;
+	text-align:center;
+	box-sizing:border-box;
+	padding:1em;
+	overflow:auto;
+	vertical-align:bottom;
+	height:8em;
+}
+div#footer li {
+	display:inline-block;
+	margin:0.5em 1em;
+}
+span#tagline {
+	font-size:0.75em;
+}
+div#sitenotice {
+	margin-bottom:1em;
+	text-align:center;
+}
+div#pagetext {
+	margin:1.5em 0em 1em 0em;
+}
+div.newmessage {
+	text-align:center;
+	background-color:powderblue;
+	border-radius:3px;
+	padding:1em 0.5em;
+}
+#logo-wrapper a,
+#logo-wrapper a:hover {
+	display: block;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position:center center;
+	text-decoration: none;
+	margin:0em;
+}
+.visualClear {
+	clear:both;
+}
+/* Preferences page styles - based off code from Monobook */
+.client-js #preftoc {
+	/* Tabs */
+	width: 100%;
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+.client-js #preftoc li {
+    /* Tab */
+    background-color: #f0f0f0;
+    color: #000;
+    margin: 1px -2px 1px 2px;
+    float: left;
+    padding: 2px 0 3px 0;
+    border: 1px solid #fff;
+    border-right-color: #716f64;
+    border-bottom: 0;
+    position: relative;
+    white-space: nowrap;
+    list-style-type: none;
+    list-style-image: none;
+}
+
+.client-js #preftoc li.selected {
+    font-weight: bold;
+    background-color: #f9f9f9;
+    border: 1px solid #aaa;
+    border-bottom: 0;
+    cursor: default;
+    top: 2px;
+    padding-top: 2px;
+    margin-right: -3px;
+}
+
+.client-js #preftoc li.selected a {
+    cursor: default;
+    text-decoration: none;
+}
+
+.client-js #preftoc a, .client-js #preftoc a:active {
+    display: inline-block;
+    color: #000;
+    padding: 0 .7em;
+    position: relative;
+    text-decoration: none;
+}
+
+#preferences {
+    margin: 0;
+	border: 1px solid #aaa;
+	clear: both;
+	padding: 1.5em;
+	background-color: #F9F9F9;
+}
+
+.client-js #preferences > fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.client-js #preferences > fieldset > legend {
+    display: none;
+}
+
+.client-js #preferences legend {
+		font-weight: bold;
+}
+
+.mw-htmlform-submit {
+	font-weight: bold;
+	padding-left: .3em;
+	padding-right: .3em;
+	margin-right: 2em;
+}
+
+.htmlform-tip {
+	font-size: x-small;
+	padding: .2em 2em;
+	color: #666;
+}
+
+/* End of preference page style */

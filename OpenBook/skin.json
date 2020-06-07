@@ -1,0 +1,38 @@
+{
+	"name": "OpenBook",
+	"author": [
+		"ElectricVersion"
+	],
+	"url": "https://github.com/ElectricVersion/OpenBook",
+	"descriptionmsg": "openbook-skin-desc",
+	"namemsg": "skinname-openbook",
+	"license-name": "GPL-2.0+",
+	"type": "skin",
+	"ValidSkinNames": {
+		"openbook": "OpenBook"
+	},
+	"MessagesDirs": {
+		"OpenBook": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"skins.openbook.styles": {
+			"position": "top",
+			"styles": {
+				"style.css": {
+					"media": "screen"
+				}
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "OpenBook"
+	},
+	"AutoloadClasses": {
+		"SkinOpenBook": "SkinOpenBook.php",
+		"OpenBookTemplate": "OpenBookTemplate.php"
+	},
+	"manifest_version": 1
+}

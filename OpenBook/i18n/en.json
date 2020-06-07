@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"skinname-openbook": "OpenBook",
+	"openbook-desc": "Monobook Alternative",
+	"openbook.css": "/* CSS placed here will affect users of the OpenBook skin */",
+	"openbook.js": "/* Any JavaScript here will be loaded for users using the OpenBook skin */"
+}

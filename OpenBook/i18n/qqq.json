@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"ElectricVersion"
+		]
+	},
+	"skinname-openbook": "{{optional}}",
+	"openbook-desc": "{{desc|what=skin|name=OpenBook|url=https://www.mediawiki.org/wiki/Skin:OpenBook}}",
+	"openbook.css": "{{optional}}\nCSS applied to users using OpenBook skin.",
+	"openbook.js": "{{optional}}\nJS for users using OpenBook skin."
+}
